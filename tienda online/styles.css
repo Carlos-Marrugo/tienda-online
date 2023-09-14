@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del banner */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Agregamos flex-wrap*/
+}
+
+.banner img {
+    max-height: 50px;
+    margin-bottom: 10px; /* Espacio entre el logo y la barra de búsqueda */
+}
+
+input[type="text"] {
+    flex: 1;  
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; /* Espacio entre el logo y la barra de búsqueda */
+}
+
+.navigation {
+    margin-top: 10px; /* Espacio entre la barra de búsqueda y los botones de navegación */
+}
+
+.navigation button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navigation button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de la sección de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos del pie de página (footer) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
